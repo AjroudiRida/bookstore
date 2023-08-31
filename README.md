@@ -117,11 +117,9 @@ npm test
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](http://ridaajroud.me/math-magicians/issues).
+Feel free to check the [issues page](http://ridaajroud.me/Bookstore/issues).
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/newtonah0/Capstone-Project2/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
