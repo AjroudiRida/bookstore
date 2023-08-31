@@ -50,21 +50,12 @@ export const deleteBook = createAsyncThunk(
 const booksSlice = createSlice({
   name: 'books',
   initialState,
-  reducers: {
-    // addBook: (state, { payload }) => {
-    //   state.books = [...state.books, payload];
-    // },
-    removeBook: (state, { payload }) => {
-      const id = payload;
-      state.books = [...state.books.filter((book) => book.itemId !== id)];
-    },
-  },
+  reducers: {},
   extraReducers: {
     [getBooks.pending]: (state) => {
       state.isLoading = true;
     },
     [getBooks.fulfilled]: (state, { payload }) => {
-      // console.log(payload)
       state.isLoading = false;
       state.books = payload;
     },
